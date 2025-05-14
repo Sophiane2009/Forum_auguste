@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f8f8f8;
+}
+h1 {
+  text-align: center;
+}
+.plan {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.batiment {
+  background: #e0e0e0;
+  border: 2px solid #aaa;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+}
+.fiche {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 5px;
+}
