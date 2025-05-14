@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forum d’Auguste</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Forum d’Auguste</h1>
+  <div class="plan">
+    <div class="batiment" data-fiche="auguste">Statue d’Auguste</div>
+    <div class="batiment" data-fiche="enee">Statue d’Énée</div>
+    <div class="batiment" data-fiche="romulus">Statue de Romulus</div>
+    <div class="batiment" data-fiche="mars">Temple de Mars Vengeur</div>
+    <div class="batiment" data-fiche="autel">Autel</div>
+    <div class="batiment" data-fiche="quadrige">Quadrige</div>
+    <div class="batiment" data-fiche="colosse">Salle du Colosse</div>
+  </div>
+  <div class="fiche" id="fiche"></div>
+  <script src="script.js"></script>
+</body>
+</html>
